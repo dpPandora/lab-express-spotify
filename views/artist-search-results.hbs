@@ -1,0 +1,13 @@
+<style>
+    div {
+        width: 320px;
+    }
+</style>
+{{#each artist}}
+    <div>
+        <hr>
+        <img src="{{images.[1].url}}" alt="">
+        <span>{{this.name}} - <a href="/albums/{{this.id}}">View Albums</a></span>
+        <hr>
+    </div>
+{{/each}}

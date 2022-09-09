@@ -1,0 +1,6 @@
+{{#each tracks}}
+   <div>
+        <p><a href="{{this.external_urls.spotify}}">{{this.name}}</a></p>
+        <audio controls src="{{this.preview_url}}">somethings wrong</audio>
+   </div>
+{{/each}}
